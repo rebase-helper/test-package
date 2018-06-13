@@ -9,14 +9,17 @@ int variableA = -1;
 int variableB = 0;
 
 /*
- * this is variable C
- */
-int variableC = 0;
-
-/*
  * this is function X
  */
 int functionX(void)
 {
     return 42;
+}
+
+/*
+ * this is function Y
+ */
+void functionY(void)
+{
+    return;
 }
