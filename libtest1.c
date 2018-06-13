@@ -1,7 +1,7 @@
 /*
  * this is variable A
  */
-int variableA = 0;
+int variableA = -1;
 
 /*
  * this is variable B
