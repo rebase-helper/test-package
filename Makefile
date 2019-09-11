@@ -1,7 +1,7 @@
 NAME1 = libtest1
 NAME2 = libtest2
 
-VERSION = 0.2
+VERSION = 0.3
 
 LIB1 = $(NAME1).so
 LIB2 = $(NAME2).so.$(VERSION)
@@ -28,7 +28,6 @@ install: $(LIB1) $(LIB2)
 	$(INSTALL) -D -t $(LIBDIR) $^
 	$(INSTALL) -D -t $(DATADIR) data/*.dat
 	$(INSTALL) -D -t $(DATADIR)/extra data/extra/*.dat
-	$(INSTALL) -D -t $(DOCDIR) doc/notes.txt
 
 clean:
 	rm -f $(LIB1) $(LIB2)
