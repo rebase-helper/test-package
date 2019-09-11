@@ -1,7 +1,7 @@
 NAME1 = libtest1
 NAME2 = libtest2
 
-VERSION = 0.1
+VERSION = 0.2
 
 LIB1 = $(NAME1).so
 LIB2 = $(NAME2).so.$(VERSION)
